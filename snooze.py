@@ -14,7 +14,7 @@ while True:
         T_fast = 0.01
         T_on = brightness*T_fast
         T_off = (1-brightness)*T_fast
-        num_repeats=7
+        num_repeats=10 #changed from 7 to 10, so whole process takes slightly longer
         i=0
         while (i<num_repeats):
             led.value = True
